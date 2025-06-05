@@ -1,4 +1,8 @@
-package model;
+package model.turnos;
+
+import model.mascotas.Duenio;
+import model.mascotas.Mascota;
+import model.servicios.Servicio;
 
 import java.time.LocalDate;
 

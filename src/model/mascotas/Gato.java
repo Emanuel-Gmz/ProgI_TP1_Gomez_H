@@ -1,6 +1,6 @@
-package model;
+package model.mascotas;
 
-public class Gato extends Mascota{
+public class Gato extends Mascota {
 
     public Gato(String ID, String nombre, int edad, String raza, String comportamiento) {
         super(ID, nombre, edad, raza, comportamiento);

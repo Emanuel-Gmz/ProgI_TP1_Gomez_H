@@ -1,4 +1,4 @@
-package model;
+package model.mascotas;
 
 public class Duenio {
     private String nombre;
