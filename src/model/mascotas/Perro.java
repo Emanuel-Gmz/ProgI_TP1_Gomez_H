@@ -2,13 +2,12 @@ package model.mascotas;
 
 public class Perro extends Mascota {
 
-    public Perro(String ID, String nombre, int edad, String raza, String comportamiento) {
-        super(ID, nombre, edad, raza, comportamiento);
-    }
+  public Perro(String iD, String nombre, int edad, String raza, String comportamiento, String tamanio) {
+    super(iD, nombre, edad, raza, comportamiento, tamanio);
+  }
 
-    @Override
-    String tipoMascota() {return "";}
-
-    @Override
-    public void mostrarFicha() {}
+  @Override
+  public String tipoMascota() {
+    return "Perro";
+  }
 }

@@ -1,13 +1,31 @@
 package model.servicios;
 
+import model.mascotas.Mascota;
+
+import java.util.logging.Logger;
+
 public class ComboCompleto implements Servicio {
-    @Override
-    public void aplicarServicio() {
+  private static final Logger LOGGER = Logger.getLogger(ComboCompleto.class.getName());
+  private Servicio[] servicios;
+  private Mascota mascota;
 
-    }
+  public ComboCompleto(Servicio banio, Servicio cortePelo, Servicio limpiezaoidos) {
+    this.servicios = new Servicio[]{banio, cortePelo, limpiezaoidos};
+  }
 
-    @Override
-    public double calcularPrecio() {
-        return 0;
+  @Override
+  public void aplicarServicio() {
+    LOGGER.info("Aplicando combo completo");
+    for (Servicio servicio : servicios) {
+      servicio.aplicarServicio();
     }
+  }
+
+  @Override
+  public double calcularPrecio() {
+    double total = 0;
+    for (Servicio servicio : servicios) {
+      total += servicio.calcularPrecio();
+    }return total;
+  }
 }
