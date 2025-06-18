@@ -4,6 +4,7 @@ import model.mascotas.Mascota;
 
 import java.util.logging.Logger;
 
+//**Clase ComboCompleto
 public class ComboCompleto implements Servicio {
   private static final Logger LOGGER = Logger.getLogger(ComboCompleto.class.getName());
   private Servicio[] servicios;

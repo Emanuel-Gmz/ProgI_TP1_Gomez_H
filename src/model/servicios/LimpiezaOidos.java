@@ -3,6 +3,7 @@ package model.servicios;
 import model.mascotas.Mascota;
 
 import java.util.logging.Logger;
+//**Clase LimpiezaOidos
 
 public class LimpiezaOidos implements Servicio {
   private static final Logger LOGGER = Logger.getLogger(LimpiezaOidos.class.getName());

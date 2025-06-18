@@ -2,6 +2,8 @@ package model.mascotas;
 
 import java.util.logging.Logger;
 
+//**Clase Abs Mascota.
+
 public abstract class Mascota {
   private static final Logger LOGGER = Logger.getLogger(Mascota.class.getName());
   private final String iD;

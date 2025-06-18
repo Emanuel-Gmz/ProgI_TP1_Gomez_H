@@ -1,6 +1,7 @@
 package model.mascotas;
 
 import java.util.logging.Logger;
+//**Clase Duenio
 
 public class Duenio {
   private static final Logger LOGGER = Logger.getLogger(Duenio.class.getName());

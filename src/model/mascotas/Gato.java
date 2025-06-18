@@ -1,5 +1,7 @@
 package model.mascotas;
 
+//**Clase GatoHeredada
+
 public class Gato extends Mascota {
 
   public Gato(String iD, String nombre, int edad, String raza, String comportamiento, String tamanio) {

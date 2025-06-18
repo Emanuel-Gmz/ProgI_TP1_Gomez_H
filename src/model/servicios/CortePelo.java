@@ -1,9 +1,9 @@
 package model.servicios;
 
 import model.mascotas.Mascota;
-
 import java.util.logging.Logger;
 
+//**Clase Corte Pelo
 public class CortePelo implements Servicio {
   private static final Logger LOGGER = Logger.getLogger(CortePelo.class.getName());
   private Mascota mascota;

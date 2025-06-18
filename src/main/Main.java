@@ -11,6 +11,7 @@ import java.util.logging.Logger;
 
 import model.turnos.Turno;
 
+//**Clase Main
 
 public class Main {
   public static final Logger LOGGER = Logger.getLogger(Main.class.getName());
@@ -30,7 +31,7 @@ public class Main {
     LOGGER.info("ID  de: " + gato1.getNombre() + ": " + gato1.getiD());
     LOGGER.info("ID de: " + perro2.getNombre() + ": " + perro2.getiD());
 
-    //Asignar las mascotas a los dueños
+
     duenio1.agregarMascota(perro1);
     duenio2.agregarMascota(gato1);
     duenio1.agregarMascota(perro2);
